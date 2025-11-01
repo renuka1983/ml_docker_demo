@@ -27,7 +27,7 @@ jobs:
 
     - name: Pull Data from DVC Remote
       run: |
-        dvc pull
+        dvc pull --force
 
     - name: Reproduce DVC Pipeline
       run: |

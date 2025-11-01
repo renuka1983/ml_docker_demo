@@ -4,7 +4,7 @@ stages:
     deps:
       - data/diabetes.csv
     outs:
-      - data/diabetes.csv
+      - data/diabetes_preprocessed.csv
 
   train:
     cmd: python models/train.py
