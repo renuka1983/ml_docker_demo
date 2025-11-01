@@ -9,6 +9,6 @@ stages:
   train:
     cmd: python models/train.py
     deps:
-      - data/diabetes.csv
+      - data/diabetes_preprocessed.csv
     outs:
       - models/log_model.sav
