@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/mlops_docker_demo/models/mlruns/426381178723520243/977408f76b1549bf8e3eba42a1c2a94a/artifacts
+end_time: 1761961984411
+entry_point_name: ''
+experiment_id: '426381178723520243'
+lifecycle_stage: active
+run_id: 977408f76b1549bf8e3eba42a1c2a94a
+run_name: judicious-bird-126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761961981302
+status: 3
+tags: []
+user_id: renusapple

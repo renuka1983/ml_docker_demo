@@ -1,0 +1,6 @@
+artifact_location: file:///Users/renusapple/mlops_docker_demo/models/mlruns/426381178723520243
+creation_time: 1761961937805
+experiment_id: '426381178723520243'
+last_update_time: 1761961937805
+lifecycle_stage: active
+name: diabetes_experiment

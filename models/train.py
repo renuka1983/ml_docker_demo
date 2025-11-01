@@ -9,7 +9,7 @@ mlflow.set_tracking_uri("file:./models/mlruns")
 mlflow.set_experiment("diabetes_experiment")
 
 # Load data
-data = pd.read_csv("diabetes_preprocessed.csv")
+data = pd.read_csv("~/mlops_docker_demo/data/diabetes_preprocessed.csv")
 X = data.drop('Outcome', axis=1)
 y = data['Outcome']
 

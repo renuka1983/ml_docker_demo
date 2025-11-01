@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python models/preprocess.py
+    deps:
+    - path: data/diabetes.csv
+      hash: md5
+      md5: 97697ff228c737bacf4b221fccd8c872
+      size: 29226
+    outs:
+    - path: data/diabetes_preprocessed.csv
+      hash: md5
+      md5: 2ff9199536f6459b7b9795f557eb6163
+      size: 32201
+  train:
+    cmd: python models/train.py
+    deps:
+    - path: data/diabetes_preprocessed.csv
+      hash: md5
+      md5: 2ff9199536f6459b7b9795f557eb6163
+      size: 32201
+    outs:
+    - path: models/log_model.sav
+      hash: md5
+      md5: d039908f20d7d8849ce4d4bf0691cf2f
+      size: 1038

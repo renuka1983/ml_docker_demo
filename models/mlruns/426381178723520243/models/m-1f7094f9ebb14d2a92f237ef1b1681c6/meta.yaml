@@ -1,0 +1,10 @@
+artifact_location: file:///Users/renusapple/mlops_docker_demo/models/mlruns/426381178723520243/models/m-1f7094f9ebb14d2a92f237ef1b1681c6/artifacts
+creation_timestamp: 1761961981314
+experiment_id: '426381178723520243'
+last_updated_timestamp: 1761961984409
+model_id: m-1f7094f9ebb14d2a92f237ef1b1681c6
+model_type: null
+name: model
+source_run_id: 977408f76b1549bf8e3eba42a1c2a94a
+status: 2
+status_message: null
